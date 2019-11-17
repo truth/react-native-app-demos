@@ -40,7 +40,7 @@ public class RnController {
 		bundleB.setDesc("第二个模块");
 
 		Bundle bundleC = new Bundle();
-		bundleC.setName("CModel");
+		bundleC.setName("ThirtyDaysOfReactNative");
 		bundleC.setDesc("第三个模块30Days");
 
 		List<Bundle> list = new ArrayList<>();
@@ -93,8 +93,10 @@ public class RnController {
 			file = new File("F:/OpenSource/react-native-spring/bundles/AModel.zip");
 		} else if (name.equals("BModel")) {
 			file = new File("F:/OpenSource/react-native-spring/bundles/BModel.zip");
-		}else if (name.equals("CModel")) {
-			file = new File("F:/OpenSource/react-native-spring/bundles/CModel.zip");
+		}else if (name.equals("ThirtyDaysOfReactNative")) {
+			file = new File("F:/OpenSource/react-native-spring/bundles/ThirtyDaysOfReactNative.zip");
+		}else {
+			file = new File("F:/OpenSource/react-native-spring/bundles/"+name+".zip");
 		}
 
 		HttpHeaders headers = new HttpHeaders();
