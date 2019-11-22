@@ -28,7 +28,8 @@ build/
 .gradle
 local.properties
 *.iml
-
+bundle/
+ThirtyDaysOfReactNative/
 # node.js
 #
 node_modules/
