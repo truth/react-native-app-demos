@@ -2,6 +2,7 @@ package com.host;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -20,7 +21,7 @@ public class DispatchActivity extends ReactActivity {
     @Override
     protected ReactActivityDelegate createReactActivityDelegate() {
 
-        DispatchDelegate delegate = new DispatchDelegate(this, DispatchUtils.dispatchModel);
+        DispatchDelegate    delegate = new DispatchDelegate(this, DispatchUtils.dispatchModel);
 
         return delegate;
     }

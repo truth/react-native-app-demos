@@ -5,7 +5,10 @@ import android.app.Activity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.facebook.react.shell.MainReactPackage;
+import com.BV.LinearGradient.LinearGradientPackage;
+import com.projectseptember.RNGL.RNGLPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -36,7 +39,10 @@ public class DispatchDelegate extends ReactActivityDelegate {
             @Override
             protected List<ReactPackage> getPackages() {
                 return Arrays.<ReactPackage>asList(
-                        new MainReactPackage()
+                    new MainReactPackage(),
+                    new RNCWebViewPackage(),
+                    new LinearGradientPackage(),
+                    new RNGLPackage()
                 );
             }
 

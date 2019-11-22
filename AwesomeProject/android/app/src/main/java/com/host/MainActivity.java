@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
     public static final String TAG = MainActivity.class.getSimpleName();
 
     private LinearLayout linearLayout;
-    private final String SERVER_URL="http://10.8.0.14:8080";
+    private final String SERVER_URL="http://192.168.11.63:8081";
     public String downDir="";
     public String appDir="";
 
