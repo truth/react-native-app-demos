@@ -1,3 +1,4 @@
 npx react-native bundle --entry-file index.js --bundle-output ./BModel/BModel.bundle --platform android --assets-dest ./bundle --dev false
 npx react-native bundle --entry-file index.js --bundle-output ./AModel/AModel.bundle --platform android --assets-dest ./bundle --dev false
+npx react-native bundle --entry-file index.js --bundle-output ./RNElements/RNElements.bundle --platform android --assets-dest ./bundle --dev false
 npx react-native bundle --entry-file index.js --bundle-output ./ThirtyDaysOfReactNative/ThirtyDaysOfReactNative.bundle --platform android --assets-dest ./bundle --dev false
