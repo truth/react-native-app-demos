@@ -43,10 +43,15 @@ public class RnController {
 		bundleC.setName("ThirtyDaysOfReactNative");
 		bundleC.setDesc("第三个模块30Days");
 
+		Bundle bundleIndex = new Bundle();
+		bundleIndex.setName("RNElements");
+		bundleIndex.setDesc("第四个模块RNElements");
+
 		List<Bundle> list = new ArrayList<>();
 		list.add(bundleA);
 		list.add(bundleB);
 		list.add(bundleC);
+		list.add(bundleIndex);
 
 		response.setData(list);
 
